@@ -18,7 +18,7 @@ This project demonstrates a fully inkjet-printed, micro-sized flexible ultraviol
 ## Device Structure and Fabrication
 
 <figure>
-  <img src="assets/figure1-device-structure.png" width="650">
+  <img src="assets/figure1-device-structure.jpg" width="650">
   <figcaption>
     Device structure and fabrication process of the fully inkjet-printed ZnO UV photodetector.  
     (a) Schematic illustration of the device architecture on a flexible Kapton substrate with printed ZnO active layer and silver electrodes.  
@@ -32,7 +32,7 @@ This project demonstrates a fully inkjet-printed, micro-sized flexible ultraviol
 ## Film Morphology and Microstructure
 
 <figure>
-  <img src="assets/figure2-film-morphology.png" width="650">
+  <img src="assets/figure2-film-morphology.jpg" width="650">
   <figcaption>
     Film morphology and microstructure of inkjet-printed ZnO thin films.  
     (a) Low-magnification SEM image of the printed ZnO region.  
@@ -46,7 +46,7 @@ This project demonstrates a fully inkjet-printed, micro-sized flexible ultraviol
 ## Photoresponse Characteristics
 
 <figure>
-  <img src="assets/figure5-photoresponse.png" width="650">
+  <img src="assets/figure5-photoresponse.jpg" width="650">
   <figcaption>
     Electrical and photoresponse characteristics of the printed ZnO UV photodetector.  
     (a) I–V characteristics measured in dark and under UV illumination.  
