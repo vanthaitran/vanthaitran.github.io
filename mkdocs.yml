@@ -1,0 +1,13 @@
+site_name: Van Thai Tran
+site_url: https://vanthaitran.github.io/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Contact: contact.md
