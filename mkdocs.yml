@@ -10,4 +10,5 @@ theme:
 nav:
   - Home: index.md
   - Publications: publications.md
+  - Projects: projects.md
   - Contact: contact.md
