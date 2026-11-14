@@ -197,6 +197,9 @@ img { max-width: 100%; display: block; }
 .figure { max-width: 520px; margin: 0 auto 30px; border: var(--rule); }
 .figure img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; filter: grayscale(1) contrast(1.05); }
 .figure.wide { max-width: 720px; }
+.figure.narrow { max-width: 440px; }
+/* Figures that are not 16:9 keep their own shape instead of being cropped. */
+.figure.natural img { aspect-ratio: auto; object-fit: contain; }
 /* Data plots whose legends depend on color keep it; photos stay black and white. */
 .figure.keep-color img { filter: none; }
 .figure figcaption {
@@ -275,10 +278,11 @@ img { max-width: 100%; display: block; }
   margin: 0 0 24px;
 }
 /* Long publication lists: tighter entries so the page scans quickly. */
-.year-group .entry:not([hidden]) ~ .entry:not([hidden]) { margin-top: 26px; }
-.year-group .entry .when { margin-bottom: 4px; }
-.year-group .entry h3 { font-size: clamp(18px, 1.6vw, 20px); }
-.year-group .entry p:not(.when) { margin-top: 4px; font-size: 15.5px; }
+.year-group .entry:not([hidden]) ~ .entry:not([hidden]),
+.entries.compact .entry ~ .entry { margin-top: 26px; }
+.year-group .entry .when, .entries.compact .entry .when { margin-bottom: 4px; }
+.year-group .entry h3, .entries.compact .entry h3 { font-size: clamp(18px, 1.6vw, 20px); }
+.year-group .entry p:not(.when), .entries.compact .entry p:not(.when) { margin-top: 4px; font-size: 15.5px; }
 .entry .authors strong { font-weight: 700; }
 .entry .tags, .chapter .tags { justify-content: center; margin-top: 14px; }
 .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 16px; }

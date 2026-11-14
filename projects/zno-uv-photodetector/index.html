@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Inkjet-printed ZnO UV photodetector · Van Thai Tran</title>
-<meta name="description" content="A fully inkjet-printed, flexible ZnO ultraviolet photodetector for wearable UV monitoring.">
+<title>Inkjet-printed ZnO UV photodetectors · Van Thai Tran</title>
+<meta name="description" content="PhD research on inkjet-printed ZnO thin films: a fully printed, flexible UV photodetector and the effect of thermal treatment on the films’ electronic properties.">
 <link rel="icon" href="../../images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,15 +24,16 @@
 
 <main>
   <header class="page-head">
-    <h1>All-inkjet-printed flexible ZnO UV photodetector</h1>
+    <h1>Inkjet-printed ZnO UV photodetectors</h1>
     <hr class="short-rule">
-    <p>Nanotechnology, 2017 · Highlighted paper · Completed</p>
+    <p>PhD research · Nanyang Technological University · Completed</p>
   </header>
 
   <!-- ============ OVERVIEW ============ -->
   <section class="section flush-top" aria-label="Overview">
     <div class="prose">
       <p>This project demonstrates a fully inkjet-printed, micro-sized flexible ultraviolet (UV) photodetector based on zinc oxide (ZnO) thin films. Both the semiconductor layer and metallic electrodes are fabricated using inkjet printing, enabling a fully additive, maskless, and digitally controlled process compatible with flexible substrates. The device is designed for wearable UV monitoring and flexible optoelectronic applications.</p>
+      <p>The work is part of my PhD research on inkjet-printed ZnO thin-film semiconductors for additive manufacturing of electronic devices. A follow-up study examined how low-temperature thermal treatment shapes the electronic properties of the printed films.</p>
     </div>
   </section>
 
@@ -64,14 +65,19 @@
           <li>Demonstration of a <strong>fully inkjet-printed ZnO UV photodetector</strong>, including both ZnO semiconductor and silver electrodes.</li>
           <li>Development of a <strong>solution-based ZnO printing and thermal conversion process</strong> compatible with flexible Kapton substrates.</li>
           <li>Experimental validation of <strong>fast photoresponse, high on/off ratio, and mechanical flexibility</strong>.</li>
+          <li>Showing that <strong>low-temperature annealing raises responsivity by more than a thousand times</strong>, linked to reduced band bending as grains merge.</li>
         </ol>
       </div>
     </div>
   </section>
 
   <!-- ============ FIGURES ============ -->
-  <section class="section" aria-label="Figures">
+  <section class="section" aria-labelledby="device-h">
     <div class="wrap">
+      <div class="section-head">
+        <h2 id="device-h">The printed photodetector</h2>
+        <hr class="short-rule">
+      </div>
       <div class="chapters">
         <article class="chapter">
           <figure class="figure wide">
@@ -120,22 +126,96 @@
     </div>
   </section>
 
-  <!-- ============ OUTPUT ============ -->
-  <section class="section" aria-labelledby="output-h">
+  <!-- ============ THERMAL TREATMENT ============ -->
+  <section class="section" aria-labelledby="thermal-h">
     <div class="wrap">
       <div class="section-head">
-        <h2 id="output-h">Publication</h2>
+        <h2 id="thermal-h">Thermal treatment and electronic properties</h2>
         <hr class="short-rule">
       </div>
-      <div class="entries">
-        <article class="entry">
-          <p class="when">Journal · Nanotechnology, 28(9): 095204 · 2017</p>
-          <h3>All-inkjet-printed flexible ZnO micro photodetector for a wearable UV monitoring device</h3>
-          <p class="authors"><strong>VT Tran</strong>, Y Wei, H Yang, Z Zhan, H Du</p>
-          <div class="links"><a href="../../work.html">All publications</a><a href="https://scholar.google.com.sg/citations?user=RGOaklgAAAAJ">Google Scholar</a></div>
+      <div class="prose">
+        <p>Inkjet printing from a precursor ink produces polycrystalline ZnO films made of nano-size grains, which strongly influence their electrical behavior. This study annealed the printed films at low temperature, from 200&nbsp;°C to 350&nbsp;°C, and examined how their structure and electrical properties change. Annealing also reduced impurities common in solution-derived films, such as zinc hydroxide complexes, and changed the UV response dynamics through the films’ surface states.</p>
+      </div>
+      <div class="chapters" style="margin-top:64px">
+        <article class="chapter">
+          <figure class="figure wide natural">
+            <img src="assets/thermal-fig1-morphology.jpg" alt="SEM and TEM images of printed ZnO films after pre-heat treatment at 200 °C and after annealing at 350 °C" width="1200" height="1001" loading="lazy">
+            <figcaption>Figure 4. Film morphology and nanostructure.</figcaption>
+          </figure>
+          <h2>Grain growth with annealing</h2>
+          <p>(a, b) Morphology of printed ZnO films after pre-heat treatment at 200&nbsp;°C and after annealing at 350&nbsp;°C. (c, d) Nanostructure of the same films. X-ray diffraction shows the crystallite size along the (101) direction growing from 3.8&nbsp;nm to 8.3&nbsp;nm.</p>
+        </article>
+
+        <article class="chapter">
+          <figure class="figure narrow natural">
+            <img src="assets/thermal-fig4-responsivity.jpg" alt="Dark current, light current and responsivity of printed ZnO plotted against treatment temperature from 200 to 350 °C" width="945" height="1134" loading="lazy">
+            <figcaption>Figure 5. Electrical properties at 5&nbsp;V bias.</figcaption>
+          </figure>
+          <h2>More than a thousand times the responsivity</h2>
+          <p>(a) Dark current, (b) current under light illumination and (c) responsivity of printed ZnO for treatment temperatures from 200&nbsp;°C to 350&nbsp;°C. Annealing at 350&nbsp;°C raised responsivity by more than a thousand times.</p>
+        </article>
+
+        <article class="chapter">
+          <figure class="figure wide natural">
+            <img src="assets/thermal-fig7-band-bending.jpg" alt="Energy band diagrams of unannealed and annealed films, showing a smaller barrier at the grain boundary after annealing" width="1240" height="471" loading="lazy">
+            <figcaption>Figure 6. Band bending at grain boundaries.</figcaption>
+          </figure>
+          <h2>Reduced band bending</h2>
+          <p>Mott–Schottky analysis indicates that annealing lowers band bending at the grain boundaries as grains merge, reducing the barrier between nanoparticles and improving electron mobility.</p>
         </article>
       </div>
-      <p class="more" style="font-weight:400"><em>Figures adapted from the author’s published work for academic presentation.</em></p>
+    </div>
+  </section>
+
+  <!-- ============ OUTPUT ============ -->
+  <section class="section tint" aria-labelledby="output-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="output-h">Publications from this work</h2>
+        <hr class="short-rule">
+      </div>
+      <div class="entries compact">
+        <article class="entry">
+          <p class="when">2022 · International Journal of Smart and Nano Materials, 13(2): 330–345</p>
+          <h3><a href="https://doi.org/10.1080/19475411.2022.2084172">Influence of thermal treatment on electronic properties of inkjet-printed zinc oxide semiconductor</a></h3>
+          <p class="authors"><strong>VT Tran</strong>, Y Wei, H Du</p>
+        </article>
+        <article class="entry">
+          <p class="when">2020 · Micromachines, 11(5): 490</p>
+          <h3>On-substrate joule effect heating by printed micro-heater for the preparation of ZnO semiconductor thin film</h3>
+          <p class="authors"><strong>VT Tran</strong>, Y Wei, H Du</p>
+        </article>
+        <article class="entry">
+          <p class="when">2019 · PhD thesis, Nanyang Technological University</p>
+          <h3>Inkjet-printed ZnO thin film semiconductor for additive manufacturing of electronic devices</h3>
+          <p class="authors"><strong>VT Tran</strong></p>
+        </article>
+        <article class="entry">
+          <p class="when">2018 · Oxide-based Materials and Devices IX, 10533: 128–135</p>
+          <h3>Influence of annealing to the defect of inkjet-printed ZnO thin film</h3>
+          <p class="authors"><strong>VT Tran</strong>, Y Wei, Z Zhan, H Du</p>
+        </article>
+        <article class="entry">
+          <p class="when">2018 · Pro-AM, International Conference on Progress in Additive Manufacturing</p>
+          <h3>Band bending modification of inkjet-printed ZnO thin film for additive manufacturing of electronic devices</h3>
+          <p class="authors"><strong>VT Tran</strong>, Y Wei, H Du</p>
+        </article>
+        <article class="entry">
+          <p class="when">2017 · Nanotechnology, 28(9): 095204 · Highlighted paper</p>
+          <h3>All-inkjet-printed flexible ZnO micro photodetector for a wearable UV monitoring device</h3>
+          <p class="authors"><strong>VT Tran</strong>, Y Wei, H Yang, Z Zhan, H Du</p>
+        </article>
+        <article class="entry">
+          <p class="when">2016 · Pro-AM, International Conference on Progress in Additive Manufacturing</p>
+          <h3>Additive Manufacturing of ZnO Thin Film for Micro Size UV Photodetector</h3>
+          <p class="authors"><strong>VT Tran</strong>, H Yang, Y Wei, H Du</p>
+        </article>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-line" href="../../work.html">All publications</a>
+        <a class="btn btn-line" href="https://scholar.google.com.sg/citations?user=RGOaklgAAAAJ">Google Scholar</a>
+      </div>
+      <p class="more" style="font-weight:400"><em>Figures 1–3 adapted from the author’s published work for academic presentation. Figures 4–6 reproduced from Tran, Wei and Du, International Journal of Smart and Nano Materials 13(2), 2022, under a <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> licence.</em></p>
     </div>
   </section>
 </main>
