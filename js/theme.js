@@ -5,7 +5,7 @@
   /* ---- TYPE PACK: the one setting to change --------------------------------
      'grotesk' = Archivo + IBM Plex Mono  (lab voice: STEM)
      'serif'   = Fraunces + Archivo caps  (seminar voice: social science, humanities) */
-  var PACK = 'grotesk';
+  var PACK = 'serif';
 
   var root = document.documentElement;
 

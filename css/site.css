@@ -248,7 +248,7 @@ img { max-width: 100%; display: block; }
 .btn-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 24px; }
 
 /* ---- work page ---------------------------------------------------------- */
-.filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 56px; }
+.filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 44px; }
 .filter {
   font-family: var(--font-label);
   font-size: 12.5px;
@@ -263,17 +263,22 @@ img { max-width: 100%; display: block; }
 }
 .filter:hover { border-color: var(--accent); color: var(--accent); }
 .filter[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
-.year-group { margin-bottom: 64px; }
+.year-group { margin-bottom: 52px; }
 .year-group:last-child { margin-bottom: 0; }
 .year {
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: clamp(52px, 8vw, 104px);
+  font-size: clamp(34px, 4.4vw, 48px);
   line-height: 1;
   letter-spacing: var(--display-tracking);
   text-align: center;
-  margin: 0 0 36px;
+  margin: 0 0 24px;
 }
+/* Long publication lists: tighter entries so the page scans quickly. */
+.year-group .entry:not([hidden]) ~ .entry:not([hidden]) { margin-top: 26px; }
+.year-group .entry .when { margin-bottom: 4px; }
+.year-group .entry h3 { font-size: clamp(18px, 1.6vw, 20px); }
+.year-group .entry p:not(.when) { margin-top: 4px; font-size: 15.5px; }
 .entry .authors strong { font-weight: 700; }
 .entry .tags, .chapter .tags { justify-content: center; margin-top: 14px; }
 .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 16px; }

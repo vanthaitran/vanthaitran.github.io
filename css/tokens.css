@@ -52,12 +52,12 @@ html[data-pack="serif"] {
   --font-display: 'Fraunces', Georgia, serif;
   --font-statement: 'Fraunces', Georgia, serif;
   --font-label: 'Archivo', system-ui, sans-serif;
-  --display-weight: 600;
+  --display-weight: 500;
   --display-tracking: -0.015em;
   --display-leading: 1;
-  --head-weight: 600;
+  --head-weight: 500;
   --head-tracking: -0.015em;
-  --title-weight: 500;
+  --title-weight: 450;
   --title-tracking: -0.005em;
   --emph-weight: 600;
   --emph-style: italic;
